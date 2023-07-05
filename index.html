@@ -1,0 +1,103 @@
+<!--
+
+Have Code Will Travel
+
+The culmination of our knowledge allows us to use the Materialize JS components, since they require HTML, CSS, and JS skillsets. These components are beautiful and impressive; if we know what we're doing, they're also easy to implement!
+
+Your task is to create a travel website for a place you like to or would like to visit. This can even be fictional! Remember that travel websites want to portray their place as exciting, so use as many of the Materialize JS components as you can. Don't forget that you can use the non JS components as well: grid, cards, navbar, etc.
+
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!--Used to insert materialized icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+  
+  
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Jeremys Guide to Paris</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="places.html">Places</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="collapsible.html">Tour Guide</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="parallax-container">
+      <div class="parallax"><img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80"/>
+      </div>
+    </div>
+  
+  <div class="section white">
+    <div class="row container">
+      <h1 class="header">Alexandre III Bridge</h1>
+      <!--Used to Open and Collapse Information-->
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Click Here for more Information</div>
+          <div class="collapsible-body"><span>The Pont Alexandre III is a deck arch bridge that spans the Seine in Paris. It connects the Champs-Élysées quarter with those of the Invalides and Eiffel Tower …</span></div>
+        </li>
+      </ul>
+    </div> 
+  </div>
+
+  <div class="parallax-container">
+    <div class="paralax"><img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_2121,h_1193,x_0,y_145/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/mentalfloss/01gtyhbenxv5dm6mga21.jpg"/>
+    </div>
+  </div>    
+  
+  <div class="section-white">
+    <div class="row-container">
+      <h1 class="header">Eiffel Tower</h1>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Click here for more Information</div>
+          <div class="collapsible-body"><span>The Eiffel Tower has 1,665 stairs and three viewing platforms. Nearly 50 miles of electric cables cover the structure. There are 120 antennas atop the Eiffel Tower. The tower is made of 18,000 iron pieces bolted together by over 2.5 million rivets.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="parallax-container">
+    <div class="paralax"><img src="https://www.unjourdeplusaparis.com/wp-content/uploads/2015/05/photo-louvre-insolite.jpg"/>
+    </div>
+  </div>
+
+  <div class="section-white">
+  <div class="row-container">
+      <h1 class="header">The Louvre Museum</h1>
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">arrow_drop_down</i>Click here for more Information</div>
+          <div class="collapsible-body"><span>The Mona Lisa by Leonardo da Vinci is undoubtedly the most famous painting at the Louvre Museum and probably in the world.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+    
+        
+  
+</body>
+
+</html>
